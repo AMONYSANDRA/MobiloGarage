@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".services">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/garage" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Services Available"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="171dp"
+        android:layout_height="478dp"
+        android:text="1. Car selling 2. Body and transformation 3. Brake repairs 4. General Auto repair for cars 5. Four wheel alignment          6. Light Duty truck repair 7. Engine removal 8. Tire switching 9. A/C repair 10. Monthly servicing"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif" />
+</LinearLayout>
+</ScrollView>
