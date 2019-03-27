@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.garage:
-                Intent intent = new Intent(getApplicationContext(), Garages.class);
+                Intent intent = new Intent(this, Garages.class);
                 startActivity(intent);
                 return true;
 
